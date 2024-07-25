@@ -71,3 +71,18 @@ main .dots {
   border-right: var(--thin-border);
   border-left: var(--thin-border);
 }
+
+.portfolio-list {
+  width: var(--content-width);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-list > * {
+  margin: 20px;
+}
+
+.portfolio-list img {
+width: 250px;
+}
