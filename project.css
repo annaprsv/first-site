@@ -86,3 +86,7 @@ main .dots {
 .portfolio-list img {
 width: 250px;
 }
+
+.portfolio-list {
+  text-align: center;
+}
