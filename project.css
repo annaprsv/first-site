@@ -80,13 +80,16 @@ main .dots {
 }
 
 .portfolio-list > * {
-  margin: 20px;
+  margin: 25px;
 }
 
 .portfolio-list img {
 width: 250px;
 }
 
-.portfolio-list {
+.portfolio-list img + * {
+  margin-top: 5%;
   text-align: center;
-}
+  }
+
+
