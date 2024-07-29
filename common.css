@@ -33,6 +33,21 @@ body {
   border-bottom: 1px #000;
 }
 
+@keyframes initialSlide {
+  0% {
+    transform: translateX(-3%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+body > * {
+  animation: 1.2s ease-out initialSlide;
+}
+
 .animated-fignya {
   z-index: -1;
   position: absolute;
